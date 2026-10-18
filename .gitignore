@@ -1,0 +1,47 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local inspection leftovers
+_nb_extract/
+_inspect_notebooks.py
+
+# Replay and TinyFish caches (regenerated at runtime)
+backend/cache/
+tests/fixtures/
+*.csv
+
+# Pytest temp files
+.pytest-temp/
+**/.pytest-temp/
+
+# Test and build leftovers
+.pytest-run/
+**/.pytest-run/
+body.json
+*.tsbuildinfo
